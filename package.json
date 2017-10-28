@@ -1,0 +1,11 @@
+{
+  "name": "dashdownloader",
+  "version": "1.0.0",
+  "description": "Download file on server(placement) at high speed then move that file through intranet to destined device",
+  "main": "dd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
