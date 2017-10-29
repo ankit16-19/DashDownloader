@@ -11,7 +11,7 @@ module.exports = function (post_data, io, callback) {
 
 
 
-    var dl = downloader.download('http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_5mb.mp4', '5.mp4');
+    var dl = downloader.download('http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_5mb.mp4', __dirname + '\\..\\Downloads\\' + '5.mp4');
 
     dl.on('end' , function(dl){
         console.log('done');
